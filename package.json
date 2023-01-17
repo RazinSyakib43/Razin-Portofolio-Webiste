@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RazinSyakib43/Razin-Portofolio-Webiste/issues"
   },
-  "homepage": "https://github.com/RazinSyakib43/Razin-Portofolio-Webiste#readme"
+  "homepage": "https://github.com/RazinSyakib43/Razin-Portofolio-Webiste#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }
