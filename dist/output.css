@@ -559,12 +559,28 @@ video {
   position: relative;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
 .bottom-20 {
   bottom: 5rem;
 }
 
 .left-1\/2 {
   left: 50%;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .-z-10 {
@@ -632,12 +648,12 @@ video {
   max-width: 100%;
 }
 
-.max-w-xl {
-  max-width: 36rem;
-}
-
 .max-w-md {
   max-width: 28rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
 }
 
 .-translate-x-1\/2 {
@@ -661,6 +677,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -677,14 +697,13 @@ video {
   border-width: 1px;
 }
 
-.border-secondary {
-  --tw-border-opacity: 1;
-  border-color: rgb(100 116 139 / var(--tw-border-opacity));
-}
-
 .border-slate-300 {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-primary {
@@ -699,6 +718,11 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .py-3 {
@@ -719,6 +743,11 @@ video {
   padding-bottom: 8rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -727,11 +756,6 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-3xl {
@@ -744,16 +768,16 @@ video {
   line-height: 2rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .uppercase {
@@ -813,6 +837,20 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.hamburger-line {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  height: 2px;
+  width: 30px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 .hover\:border-primary:hover {
